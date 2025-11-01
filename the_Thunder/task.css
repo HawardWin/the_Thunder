@@ -1,0 +1,76 @@
+@font-face {
+    font-family: l1;
+    src: url(/font/the_historia/TheHistoriaDemo.ttf);
+}
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    height: 100%; 
+    width: 100%;
+}
+
+#main{
+
+    color: aqua;
+
+}
+
+  img{
+    height: 100%; 
+    width: 100%;
+    background-size :cover ;
+    background-position: center;
+    z-index: 0;
+    
+}
+
+
+
+
+h1{
+
+    color: #006d77;
+    text-transform: capitalize;
+    font-family: l1;
+    position: absolute;
+    top: 21%; left:21%;
+    z-index: 2;
+    text-shadow: 0 0 15px rgba(0,0,0,0.2);
+    font-family: l1;
+    font-weight: 400;
+    font-size:75px;
+    display: inline-block;
+    letter-spacing: 9px;
+}
+
+div input{
+    height: 6%; width: 12%;
+    background-color:#006d77;;
+    color: rgb(255, 254, 254);
+    display: inline-block;
+    position: absolute;
+    top: 110%; left: 42%;
+    font-weight: 600;
+    font-size: 12px;
+
+    padding-top: 1px;
+    
+    border-top: 0px; 
+    border-left: 0px;
+    border-bottom: 1.5px solid white;
+    border-right:  1.5px solid white ;
+}
+
+input:hover{
+     background-color:rgba(230, 229, 219, 0.906);
+     color:#006d77;
+     font-weight: 700;
+    font-size: 13px;
+    border-right: 2px solid #006d77;
+    border-bottom: 2px solid #006d77;
+     
+}
